@@ -124,6 +124,6 @@ A big shoutout to the fantastic tools and libraries that made this project possi
 
 ## 🤝 Contributing
 
-Contributions are more than welcome! If you have any ideas, suggestions, or bug fixes, feel free to open an issue or submit a pull request. Let's make this project even better together!
+See [CONTRIBUTING.md](https://github.com/Reliccode/jwt-authentication-API/blob/main/CONTRIBUTING.md) for guidelines.
 
 ---
