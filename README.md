@@ -1,4 +1,4 @@
-# jwt-authentication-API
+# 🧩 jwt-authentication-API
 
 Welcome to our JWT Authentication project! This repository serves as a demonstration of how to implement JSON Web Token (JWT) authentication in a Go web application, making your applications secure and user-friendly. We are Glen Maritim and Naniwet Maritim.
 
@@ -79,7 +79,7 @@ Voila! Your application is now up and running on `http://localhost:8080`.
 
    ```json
    {
-       "username": "yourusername",
+       "email": "youremail",
        "password": "yourpassword"
    }
    ```
@@ -98,9 +98,9 @@ Voila! Your application is now up and running on `http://localhost:8080`.
 
 ## 📝 API Endpoints
 
-- `POST /api/register`: Register a new user.
-- `POST /api/login`: Log in and receive a JWT token.
-- `GET /api/user/profile`: Get the profile of the currently logged-in user (protected route).
+- `POST /signup`: Register a new user.
+- `POST /login`: Log in and receive a JWT token.
+- `GET /validate`: Get the profile of the currently logged-in user (protected route).
 
 ## 📜 License
 
