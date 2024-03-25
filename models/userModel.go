@@ -2,9 +2,10 @@ package models
 
 import "gorm.io/gorm"
 
+// User represents the user model in the application.
+// It defines the structure of user data stored in the database.
 type User struct {
-	gorm.Model
-	Email         string `gorm:"unique"`
-	Password string
+	gorm.Model // gorm.Model is embedded to provide common fields like ID, CreatedAt, UpdatedAt, and DeletedAt
+	Email           string `gorm:"unique"` // Email field represents the email address of the user and is marked as unique in the database
+	Password   string // Password field stores the hashed password of the user
 }
-
