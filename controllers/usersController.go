@@ -101,7 +101,7 @@ func Login(c *gin.Context) {
 		return
 	}
 
-	// Generate JWT token
+	// JWT token generation
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
 		"sub": user.ID,
 		"exp": time.Now().Add(time.Hour * 24 * 30).Unix(),
