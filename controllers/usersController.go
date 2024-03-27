@@ -12,7 +12,7 @@ import (
 	"github.com/Reliccode/jwt-authentication-API/models"
 	"github.com/gin-gonic/gin"
 	"golang.org/x/crypto/bcrypt"
-	"github.com/golang-jwt/jwt/v5"
+	"github.com/golang-jwt/jwt/v4"
 )
 
 // Signup handles the user signup process.
