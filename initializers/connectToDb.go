@@ -1,6 +1,6 @@
 package initializers
 
-// initializers contains functions responsible for initializing various
+// initializers contains functions responsible for initialization of various
 // components of the application, such as database connections.
 
 import (
