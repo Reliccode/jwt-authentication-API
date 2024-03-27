@@ -8,7 +8,7 @@ import (
 
 // LoadEnvVariables loads environment variables from a .env file.
 // It uses the godotenv package to load the variables.
-// If loading fails, it logs a fatal error.
+// Fatal errror will be logged if loading fails. 
 func LoadEnvVariables() {
 	err := godotenv.Load()
 
