@@ -1,6 +1,6 @@
 package middleware
 
-// middleware provides middleware functions for handling HTTP requests
+// The middleware package provides middleware functions for handling HTTP requests
 // in the context of authentication and authorization.
 
 import (
