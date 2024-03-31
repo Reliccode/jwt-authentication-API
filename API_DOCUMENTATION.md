@@ -5,15 +5,15 @@
 
 The JWT Authentication API provides endpoints for user signup, login, and validation utilizing JSON Web Tokens (JWT) for authentication.
 
-## Base URL
+## 🔗 Base URL
 
 ```url
 http://your-api-domain.com
 ```
 
-## Endpoints
+## ⚙️ Endpoints
 
-### 1. User Signup
+### 1. ➕ User Signup
 
 - **URL:** `/signup`
 - **Method:** `POST`
@@ -50,7 +50,7 @@ http://your-api-domain.com
         }
         ```
 
-### 2. User Login
+### 2. 🔐 User Login
 
 - **URL:** `/login`
 - **Method:** `POST`
@@ -87,7 +87,7 @@ http://your-api-domain.com
         }
         ```
 
-### 3. Validate User
+### 3. ☑️ Validate User
 
 - **URL:** `/validate`
 - **Method:** `GET`
@@ -106,11 +106,11 @@ http://your-api-domain.com
   - **Error Response:**
     - **Status Code:** `401 Unauthorized`
 
-## Authentication
+## 🔑 Authentication
 
 This API uses JWT tokens for authentication. The JWT token is generated upon successful login and must be included in the request headers for authorized endpoints.
 
-## Error Handling
+## 🚨 Error Handling
 
 - **400 Bad Request:** Returned when there is an issue with the request body or processing the request.
 - **401 Unauthorized:** Returned when the request lacks valid authentication credentials or token is invalid/expired.
